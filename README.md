@@ -17,6 +17,8 @@ I personally belive that pont `#3` applies to `quick sort` too. Point `#2` appli
 * <ins>I believe we can</ins>
 
 ```
-This project contains an implementation that'll need only one auxiliary array (of the size same as that of the original input) but no meory allocation for each subarray. When I use it I normally allocate twice the memory that is needed for storing the original input and use last half as the auxiliary array. This reduces one extra memory allocation call
+This project contains an implementation that'll need only one auxiliary array (of the size same as that of the original input)
+but no meory allocation for each subarray. When I use it I normally allocate twice the memory that is needed for storing the
+original input and use last half as the auxiliary array. This reduces one extra memory allocation call
 ```
 <ins>So memory wise it is still worse than `quick sort` but memory complexity wise it should be the same.</ins>
