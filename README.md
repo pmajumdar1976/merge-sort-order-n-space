@@ -13,7 +13,7 @@ So I googled `merge sort cons` and found the following.
 
 I personally belive that pont `#3` applies to `quick sort` too. Point `#2` applies to sort arrays. Some `O(n)` algorithm may work much better here.
 
-* So the question is if we can do anything about point `#1`. *
+* So the question is if we can do anything about point `#1`.
 * <ins>I believe we can</ins>
 
 ```
@@ -23,6 +23,6 @@ original input and use last half as the auxiliary array. This reduces one extra 
 ```
 <ins>So memory wise it is still worse than `quick sort` but memory complexity wise it should be the same.</ins>
 
-* Does it make it better than `quick sort` *
+* Does it make it better than `quick sort`
 
 I believe it does if `quick sort` loses its huge memory advantage. The average complexity of `quick sort` is `O(n log n)`, which is same as that of `merge sort` but `merge sort` beats `quick sort` in worst case complexity hands down. I consider the big edge in worst case complexity to be a great advantage in many cases.
